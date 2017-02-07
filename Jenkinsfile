@@ -5,9 +5,6 @@ node {
     stage 'build image'
     sh 'make build'
 
-    stage 'test image'
-    sh 'make test'
-
     stage 'push image'
     sh 'make push'
 }    
