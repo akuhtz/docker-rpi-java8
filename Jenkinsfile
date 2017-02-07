@@ -3,8 +3,8 @@ node {
     git url: 'https://github.com/marhan/docker-rpi-java8.git', branch: 'master'
 
     stage 'build image'
-    sh 'make -B build'
+    sh 'make -B private-build'
 
     stage 'push image'
-    sh 'make push'
+    sh 'make private-push'
 }    
