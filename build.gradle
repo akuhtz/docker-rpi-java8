@@ -14,6 +14,7 @@ group = "marhan"
 docker {
     baseImage "resin/rpi-raspbian:jessie"
     maintainer 'Markus Hanses <hanses.markus@gmail.com>'
+    useApi true
 }
 
 task buildDockerImage(type: Docker) {
