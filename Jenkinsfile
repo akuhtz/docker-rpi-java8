@@ -1,6 +1,5 @@
 
 node {
-    stage 'Build'
-    sh 'chmod +x gradlew'
+    stage 'Build'    
     sh './gradlew clean buildDockerImage'
 }
