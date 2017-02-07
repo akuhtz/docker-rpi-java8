@@ -16,7 +16,7 @@ docker {
     maintainer 'Markus Hanses <hanses.markus@gmail.com>'
     hostUrl 'http://localhost:4243'
     useApi true
-    dockerBinary '/usr/bin/docker''
+    dockerBinary '/usr/bin/docker'
 }
 
 task buildDockerImage(type: Docker) {
