@@ -1,4 +1,4 @@
-node('docker') {
+node {
     stage 'checkout source' {
         git url: 'https://github.com/marhan/docker-rpi-java8.git', branch: 'master'
     }
